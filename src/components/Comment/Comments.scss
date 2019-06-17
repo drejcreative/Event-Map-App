@@ -1,0 +1,22 @@
+.commnents {
+  padding: 20px; 
+}
+.display-comment {
+  margin: 3px 0px;
+  background: #3e3e3e;
+  .timestamp {
+    margin-right: auto;
+  }
+  &__meta {
+    display: flex;
+  }
+  &__delete {
+    color: var(--focus);
+    cursor: pointer;
+  }
+}
+.timestamp {
+  font-size: 12px;
+  color: var(--focus);
+  margin-left: 10px;
+}

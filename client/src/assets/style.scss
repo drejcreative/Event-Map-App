@@ -1,0 +1,49 @@
+:root {
+  --main: #4dc822;
+  --dark: #0f0f0f;
+  --focus: #ff9901;
+  --light: #313131;
+  --grey: #bdbdbd;
+  --white: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+html,body{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logout {
+  color: var(--focus);
+}
+
+.blog-footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-top: 1px solid grey;
+  p {
+    margin: 0;
+  }
+}
+.popup-style {
+  text-align: center;
+  p {
+    margin: 0;
+  }
+}
+
+.popup-label {
+  color: var(--grey);
+  margin-top: 10px;
+}
+.popup-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+  margin-top: 10px;
+  border-top: 1px solid grey;
+}
